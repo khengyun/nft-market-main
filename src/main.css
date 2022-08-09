@@ -1,0 +1,327 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html{
+    background-color: #1c233d;
+    
+}
+body{
+    display: flex;
+    align-items: center;
+}
+.container-fluid {
+    background-color: #1c233d;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    display: flex;
+}
+
+
+/*Start: Common*/
+.color-header {
+    color: #C267E4;
+}
+
+.color-text {
+    color: #fff;
+}
+/*End: Common*/
+
+
+/*Start: Nav*/
+.homeBtn {
+    background-color: #1c233d;
+    color: #fff;
+    border: none;
+
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.2em;
+    font-weight: bold;
+    text-decoration: none;
+    display: flex;
+    justify-items:center;
+    padding-top: 9px;
+
+}
+
+.centerBtn {
+    padding-top: 15px;
+    background-color: #1c233d;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.2em;
+    font-weight: bold;
+    text-decoration: none;
+    grid-template-columns: auto auto auto ;
+}
+
+.signBtn {
+    background-color: #1c233d;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.2em;
+    font-weight: bold;
+    text-decoration: none;
+    display: flex;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto;
+}
+
+
+/*End: Nav*/
+
+/*Start: Header*/
+.header {
+    color: white;
+}
+
+.header-right {
+    color: black;
+}
+
+/*End: Header*/
+
+
+
+/*Start: Footer*/
+.footer {
+    margin-top: 48px;
+    padding: 0 48px;
+    color: white;
+}
+
+.footer-header {
+    font-size: 40px;
+}
+
+
+.social-icon i {
+    padding: 12px 14px;
+    color: rgb(125, 122, 216);
+    border-radius: 50%;
+}
+
+.social-icon i:hover {
+    color: rgb(125, 122, 216);
+    background-color: rgba(255, 255, 255, .5);
+}
+
+.footer-item {
+    text-align: center;
+}
+
+.footer-item a {
+    display: block;
+    color: #fff;
+
+}
+
+.copyright {
+    opacity: 0.5;
+    padding: 48px 0;
+}
+/*End: Footer*/
+
+
+/*Start: Community*/
+.community {
+    background-color: rgba(30, 43, 75, 0.8);
+    color: white;
+    padding: 32px 0;
+    margin: 32px 0;
+}
+
+/*End: Community*/
+
+
+/*Start: TopCreator*/
+.topCreator {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+}
+
+.topCreator-item {
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgba(30,41,72,.7);
+    height: 84px;
+    margin: 12px 0;
+}
+
+.videoBtn {
+    text-align: center;
+    margin: 40px 0;
+}
+
+.nftCreator {
+    color: #C267E4;
+    text-align: center;
+    font-size: 24px;
+}
+
+/*End: TopCreator*/
+
+/*Start: User interacting*/
+.interacting {
+    width: 90%;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.card-item {
+    background-color: rgba(30, 43, 75, 0.8);
+    padding: 0 4px;
+    justify-content: center;
+    align-items: center;
+}
+
+.interacting-item {
+    text-align: center;
+}
+
+.card-title-p {
+    color: rgb(188 100 223);
+}
+
+.card-body {
+    color: white;
+    text-align: center;
+}
+
+.doubleBtn {
+    justify-content: center;
+    align-items: center;
+    margin: 32px 0;
+}
+
+.createBtn {
+    margin-right: 12px;
+}
+
+.watchBtn {
+    margin-left: 12px;
+}
+
+
+/*End: User interacting/
+
+
+
+
+
+
+/**/
+
+
+form {
+    margin: 20px;
+    width: 80%;
+}
+
+.card {
+    margin: 10px;
+    width: 320px;
+    height: 650px;
+    align-items: center;
+   
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin-top: 0px !important;
+    margin-bottom: 8px !important;
+}
+
+.card-header {
+    width: 100%;
+    height: 300px
+}
+
+img {
+    border-radius: 5px;
+    width: 100%;
+}
+.header-button-k{
+min-width:130px ;
+    width: auto;
+    height: 20px;
+
+}
+
+.header-button-k{
+    display:flex;
+
+    /* justify-content: center; */
+   
+    text-align: end;
+
+
+
+width: 51px;
+height: 18px;
+
+font-family: 'Space Grotesk';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 18px;
+/* identical to box height */
+
+color: #E5E5E5;
+
+
+}
+
+
+
+
+
+#home{
+    align-items: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,696 @@
+.headerk{
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index:1;
+    max-width: 100%;
+    width: 100vh;
+    display: flex;
+    align-content: center;
+    justify-content: space-around;
+    background-color: #1c233d;
+    width:100%;overflow:hidden;height:44px
+}
+.btn-group{
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto;
+    column-gap: 40px;
+    width: 100%;
+max-width: 1200px;
+height: 40px;
+    
+}
+#home{
+
+
+font-family: 'Space Grotesk';
+font-style: normal;
+font-weight: 500;
+font-size: 25px;
+line-height: 32px;
+color: #C267E5;
+}
+.centerBtn-k{
+    margin-top: 8px;
+    padding-top:unset;
+    padding-top:0px;
+    display: flex;
+    width: 100%;
+   justify-content: end;
+   align-items: center;
+    background-color: #1c233d;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.2em;
+    font-weight: bold;
+    text-decoration: none;
+    grid-template-columns: auto auto auto ;
+
+}
+.ksign-button,
+.mint-button-nft,
+.ksignout-button{
+width: 93px;
+height: 30px;
+background: linear-gradient(85.76deg, rgba(191, 196, 238, 0.0945738) -105.02%, #C367E6 10.94%, rgba(190, 206, 239, 0) 121.57%);
+border-radius: 5px;
+text-align: center;
+display: flex;
+justify-content: left;
+align-items: center;
+position: relative  
+
+}
+#sign-out-text{
+    padding-top: 3.5px;
+}
+.ktext-sign,
+.mint-button-text
+{
+
+
+/* Sign in */
+overflow: hidden;
+width: 100%;
+height: 100%;
+display: inline-flex;
+align-items: center;
+text-align: center;
+justify-content: center;
+font-family: 'Space Grotesk';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 13px;
+
+/* identical to box height */
+
+color: #FFFFFF;
+}
+.kwelcome-text{
+    display: flex;
+    justify-self: center;
+width: 350px;
+font-family: 'Space Grotesk';
+font-style: normal;
+font-weight: 700;
+font-size: 60px;
+line-height: 20px;
+
+color: #FFFFFF;
+}
+.okpen-text{
+
+font-family: 'Space Grotesk';
+font-style: normal;
+font-weight: 700;
+font-size: 60px;
+line-height: 80px;
+
+color: #C267E4;
+}
+.knft-text{
+
+
+font-family: 'Space Grotesk';
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 30px;
+
+color: #FFFFFF;
+
+
+}
+.content-header{
+    width: 364px;
+height: auto;
+padding-left: 40px;
+}
+.col-md-6 {
+    padding-top: 88px;
+}
+.text-information-k{
+  
+
+
+width: 300px;
+height: auto;
+
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 13px;
+line-height: 20px;
+padding-top:50px;
+color: #FFFFFF;
+
+}
+
+.text-left{
+    height: auto;
+}
+.btn-primary-k{
+box-sizing: border-box;
+width: 199px;
+height: 40px;
+left: 60px;
+top: 433px;
+background: linear-gradient(85.76deg, rgba(191, 196, 238, 0.0945738) -105.02%, #C367E6 10.94%, rgba(190, 206, 239, 0) 121.57%);
+border: 1px solid #000000;
+filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+display: flex;
+justify-content: center;
+align-items: center;
+border-radius: 5px;
+}
+.text-btn-primary-k{
+width: 104px;
+height: 20px;
+font-family: 'Space Grotesk';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 20px;
+color: #FFFFFF;
+}
+
+.kcss-right-main-pic{
+    margin-top: 50px;
+}
+
+.kcss-right-main-pic{
+    display: inline-flex;
+    justify-content: center;
+  
+width: 404px;
+height: 494px;
+background: #30384D;
+border-radius: 10px;
+}
+.card-img-top-k{
+    /* image 1 */
+    position: relative;
+box-sizing: border-box;
+width: 357.28px;
+height: 370.24px;
+margin-top:29px;
+
+background: url(public-1/image-25@2x.png);
+border: 1px solid #000000;
+filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+border-radius: 4.89425px;
+
+}
+.card-title{
+/* Hue - Viet Nam */
+width: auto;
+height: 18px;
+font-family: 'Space Grotesk';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 18px;
+color: #FFFFFF;
+
+
+}
+
+.card-image-k{
+
+width: auto ;
+height: 28px;
+}
+.image-k{
+
+    width: 28px;
+    height: 28x;
+ margin-left: -18px;
+    vertical-align: unset;
+        
+}
+.card-body-title{
+    width:100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-body-k{
+    margin-top: 10px;
+}
+
+.card-body-content{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+
+}
+.card-content-item{
+    width: 80px;
+    display: flex;
+    flex-direction: column;
+    
+}
+.text-detail-k{
+    /* Current Bid */
+width: 100%;
+height: 10px;
+font-family: 'DM Mono';
+font-style: normal;
+font-weight: 400;
+font-size: 8px;
+line-height: 10px;
+color: #545C71;
+text-align: center;
+padding-top: 7px;
+padding:4px
+}
+
+.text-detail-number-k{
+width: 100%;
+height: 13px;
+
+text-align: center;
+font-family: 'DM Mono';
+font-style: normal;
+font-weight: 500;
+font-size: 10px;
+line-height: 13px;
+
+
+color: #FFFFFF;
+
+
+}
+.ending-text{
+    text-align: unset;
+    text-align: end;
+}
+.statistic-number{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 81px;
+}
+
+.statistic-number-item{
+    width: auto;
+}
+.contributor{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top:110px
+}
+.contributor-item{
+    max-width: 128px;
+    padding-right: 5px;
+    padding-left: 5px;
+}
+
+.card-k{
+    align-self: center;
+    justify-self: center;
+
+width: 290px;
+height: auto;
+
+display: flex;
+align-content: center;
+justify-content: center;
+background: #30384D;
+border-radius: 5px;
+flex-direction: column;
+}
+.owner{
+
+width: 100%;
+height: 15px;
+display: flex;
+
+font-family: 'Space Grotesk';
+font-style: normal;
+font-weight: 400;
+font-size: 10px;
+line-height: 13px;
+padding-bottom: 8px;
+color: #FFFFFF;
+
+
+}
+
+.card-header-k{
+    height: auto;
+    width: 100%;
+    padding-left: 3px;
+    padding-top: 5px;
+}
+.card-description-k{
+text-align: left;
+width: auto;
+height: 20;
+left: calc(50% - 82px/2 - 72.5px);
+top: 246px;
+
+font-family: 'Space Grotesk';
+font-style: normal;
+font-weight: 700;
+font-size: 10px;
+line-height: 13px;
+/* identical to box height */
+
+color: #dddddd;
+
+
+}
+.vietnam-marker-block{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+.content-header {
+    display: flex;
+    flex-direction: column;
+    padding-left: 50px;
+}
+.vietnam-nft{
+
+width: 161px;
+height: 26px;
+
+
+font-family: 'Space Grotesk';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 26px;
+/* identical to box height */
+
+color: #FFFFFF;
+
+
+}
+
+
+
+.config-row{
+    grid-template-columns: auto auto;
+    justify-content: space-evenly;
+    display: grid;
+    column-gap: 300px;
+}
+.nft-martketplace{
+
+width: 90px;
+height: 13px;
+
+font-family: 'DM Mono';
+font-style: normal;
+font-weight: 500;
+font-size: 10px;
+line-height: 13px;
+/* identical to box height */
+
+background: linear-gradient(180deg, #9C76B8 0%, rgba(156, 118, 184, 0) 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+
+
+
+}
+.custom-control-claim,
+.custom-control-box{
+    width: auto;
+    display: flex;
+    justify-content: end;
+}
+.custom-control-box{
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    display: flex;
+
+}
+.custom-control,
+.custom-control-claim{
+    justify-content: center;
+    align-items: flex-end;
+    display: flex;
+    flex-direction: column;
+}
+.bid-control{
+    width: auto;
+    display: flex;
+    
+    justify-content: space-evenly;
+
+}
+.list-card-render-aution,
+.container-k{
+    display: inline-grid;
+    grid-template-columns: 290px 290px 290px;
+    column-gap: 30px;
+    row-gap: 20px;
+    width: unset;
+    width: 100%;
+    justify-content: center;
+}
+.card-img-k{
+padding-bottom: 10px;
+width: 250px;
+height: auto;
+border-radius: 5.131px;
+align-self: center;
+justify-self: center;
+
+}
+.token-id-k{
+
+width: 100%;
+text-align: left;
+width: auto;
+height: auto;
+
+font-family: 'Space Grotesk';
+font-style: normal;
+font-weight: 700;
+font-size: 15px;
+line-height: 13px;
+/* identical to box height */
+color: #FFFFFF;
+
+}
+
+.button-view-more-k{
+    /* Frame 17 */
+
+
+width: 141px;
+height: 33px;
+
+
+background: #30384D;
+border-radius: 5px;
+border: none;
+
+}
+.more-button{
+    width: auto ;
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+
+.view-more{
+
+
+font-family: 'DM Mono';
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 16px;
+/* identical to box height */
+
+color: #FFFFFF;
+
+
+}
+
+.container-k{
+    width: 100%;
+}
+
+
+
+.block-container-k{
+    width: 100%;
+}
+.card-content{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+}
+.ending-current{
+    display: flex;
+    justify-content: space-around;
+}
+
+.nft-ending-k{
+    color: unset;
+    color: #fff;
+    padding:unset;
+    padding:0px;
+    padding-bottom: 3px;
+}
+.author-detail-k{
+ 
+    max-width: 50px;
+    height: auto;
+    font-family: 'Space Grotesk';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+
+    
+    color: #FFFFFF;
+    
+    
+}
+.nft-owner-id{
+    /* Created by Hoang Khang */
+
+max-width: 300px;
+width: auto;
+height: auto;
+font-family: 'Space Grotesk';
+font-style: normal;
+font-weight: 700;
+font-size: 12px;
+line-height: 15px;
+margin-top: -2px;
+color: #eeeeee;
+padding-left: 2px;
+
+}
+
+.card-title-k{
+    margin-bottom: unset;
+    margin-bottom: 0px;
+}
+.card-title{
+    margin-bottom: unset;
+    margin-bottom: 0px;
+}
+.text-css-color{
+    width: 500px;
+text-align: left;
+font-style: italic;
+    color: #FFFFFF;
+    
+}
+.content-aution {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    
+}
+.form-control-k{
+    /* Frame 1 */
+box-sizing: border-box;
+border: 1px solid #9b92ae;
+border-radius: 5px;
+width: 500px;
+background-color: #30384D;
+}
+::placeholder{
+    color: #c7c7c7;
+    font-size: 10px;
+    padding-left: 5px;
+    font-style: italic;
+}
+#end-time{
+    color: #c7c7c7;
+    padding-left: 5px
+}
+#start-time{
+    color: #c7c7c7;
+    padding-left: 5px
+}
+#start-price{
+    color: white;
+    padding-left: 5px
+}
+#token-id{
+    color: white;
+    padding-left: 5px;
+}
+.sign-in-text-k{
+    margin-top: unset;
+    margin-top: 2px;
+}
+#logon{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-right: 5px;
+}
+.more-respone{
+    font-size: unset;
+    font-size: 15px;
+    margin-bottom: -8px;
+}
+.form-group{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+   
+}
+.for-text-main-k{
+width: 500px;
+text-align: left;
+font-style: italic;
+}
+.create-aution-button{
+    box-sizing: border-box;
+    width: 199px;
+    height: 40px;
+    filter: drop-shadow(0 4px 4px #00000040);
+    background: linear-gradient(85.76deg, #bfc4ee18 -105.02%, #c367e6 10.94%, #beceef00 121.57%);
+    border: 1px solid #000;
+    border-radius: 5px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    top: 433px;
+    left: 60px;
+    justify-self: center;
+}
+
+.create-aution-box{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.aution-text{
+    color: #FFFFFF;
+    font-family: Space Grotesk;
+}
+.aution-box-all{
+    width: 100%;
+    display: inline-block;
+    height: auto;
+}
