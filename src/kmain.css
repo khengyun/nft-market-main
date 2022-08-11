@@ -11,6 +11,10 @@
     background-color: #1c233d;
     width:100%;overflow:hidden;height:44px
 }
+.statistic-number-block-main{
+width: 100%;
+
+}
 .btn-group{
     width: 100%;
     display: grid;
@@ -306,6 +310,7 @@ color: #FFFFFF;
 
 .statistic-number-item{
     width: auto;
+    color: #e5e5e5;
 }
 .contributor{
     width: 100%;
